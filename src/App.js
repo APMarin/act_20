@@ -1,5 +1,7 @@
 import Parrafo from './components/Parrafo'
 import Contador from './components/Contador'
+import User from './components/User'
+
 function App() {
   return (
     <div>
@@ -7,6 +9,7 @@ function App() {
      <Parrafo></Parrafo>
      <hr></hr>
      <Contador></Contador>
+     <User></User>
     </div>
   );
 }
